@@ -27,10 +27,6 @@ app.use(xss())
 // Enable CORS
 app.use(cors())
 
-app.get('/', (req, res) => {
-  res.send('API Running...')
-})
-
 // Define routes
 app.use('/api/pizzas', require('./routes/api/pizzas'))
 app.use('/api/orders', require('./routes/api/orders'))
