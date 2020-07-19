@@ -10,6 +10,19 @@ Install dependencies on project directory, run:
 npm install
 ```
 
+## Usage
+Create .env file on project directory, and add:  
+MONGO_USER=YOUR MONGO USER GOES HERE  
+MONGO_PASSWORD=YOUR MONGO PASSWORD GOES HERE
+MONGO_DB=YOUR DB NAME GOES HERE
+SECRET_KEY=A KEY FOR JSONWEBTOKEN
+
+## Demo
+To run the project, on the project directory run:
+```
+npm run server
+```
+
 A backend for the pizza ordering system that tracks orders
 
 ADMIN ROLE
